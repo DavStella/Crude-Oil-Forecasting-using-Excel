@@ -1,5 +1,5 @@
 # Crude-Oil-Forecasting-using-Excel
-Exploring different forecasting techniques and evaluating metrics using excel of Eagle Energy Enterprises, a leader in the oil refining industry. 
+Exploring different forecasting techniques and evaluating metrics using excel of Eagle Energy Enterprises from 2014 - 2022, a leader in the oil refining industry. 
 The aim is to develop a forecasting system that can predict future crude oil import volumes, allowing the company to better manage operations and mitigate risks.
 
 ![image](https://github.com/user-attachments/assets/b4694044-0c88-4bf4-b736-bf0ab0048c54)
@@ -28,11 +28,14 @@ The aim is to develop a forecasting system that can predict future crude oil imp
 
 3. ## Data-Sources  
    This section describes the dataset used in the analysis, including:  
-   - The origin of the data (e.g., a public dataset, company records, or industry reports).  
-   - Key variables, such as dates, crude oil prices, and any additional contextual data.  
+   - The origin of the data (public dataset).  
+   - Key variables, such as dates and crude oil prices.  
    - Preprocessing steps taken to clean and prepare the data for analysis, such as handling missing values and ensuring data consistency.
 
-4. ## Methodology  
+4. ## Methodology
+   - Use Power Query Editor for data manipulation such as splitting columns, checking data type and renaming columns.
+   ![Screenshot 2025-01-19 221552](https://github.com/user-attachments/assets/c7fff534-49a1-491c-b71f-40a6384addc8)
+
    This section provides an in-depth explanation of the forecasting methods applied:  
    - **Naïve Approach:** A simple method that uses the last observed value as the forecast.  
    - **Moving Average:** Calculates the average of a defined number of recent data points to smooth fluctuations and predict future values.  
@@ -45,7 +48,7 @@ The aim is to develop a forecasting system that can predict future crude oil imp
    - **Mean Absolute Percentage Error (MAPE):** Measures error as a percentage of actual values, allowing for easier interpretation.  
    - **Accuracy:** The percentage of correctly predicted values relative to actual outcomes.
 
-5. ## Results  
+6. ## Results  
    This section presents a detailed comparison of the four forecasting methods, using a structured table (like the one you provided).  
    - Key observations include which method had the lowest MAD, MSE, and MAPE, as well as the highest accuracy.
   
@@ -56,7 +59,7 @@ The aim is to develop a forecasting system that can predict future crude oil imp
      - **Naïve Approach** performed reasonably well for its simplicity but had higher errors compared to advanced methods.  
      - **Simple Linear Regression** demonstrated relatively lower accuracy due to its assumptions of linearity.  
 
-6. ## Performance-Comparison  
+7. ## Performance-Comparison  
    This section highlights the performance of the methods using visualizations:
 
    ![Screenshot 2025-01-19 204042](https://github.com/user-attachments/assets/1bb58f04-0456-4560-86bc-8e4732dcfdf2)
@@ -65,11 +68,13 @@ The aim is to develop a forecasting system that can predict future crude oil imp
    - Observations on the trade-offs between simplicity (e.g., Naïve Approach) and accuracy (e.g., Moving Average).  
    - Discussion on the challenges of each approach and its suitability for different scenarios.  
 
-8. ## key-Insights  
+8. ## key-Insights
+   ![image](https://github.com/user-attachments/assets/964d73b8-ecc9-4570-a599-82d3508dbcb1)
+
    This section interprets the results and provides actionable insights:  
    - **Moving Average** and **Exponential Smoothing** are more reliable for short-term forecasts due to their ability to smooth out noise.  
    - **Simple Linear Regression** is less suited for crude oil price forecasting, given the non-linear nature of price changes.  
-   - The choice of forecasting method should depend on the context, such as data availability, required accuracy, and computational simplicity.
+   - The dashboard shows that overall in the dataset, **Sunday- highest day**, **January- highest month** and **2009 - the highest year with importation**
 
 9. ## Conclusion  
    This section wraps up the analysis with final remarks:  
